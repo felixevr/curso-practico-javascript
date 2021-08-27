@@ -6,3 +6,9 @@ Making some exercise to strongify my JS abilities
 2. Implementar las formulas en JavaScript. 
 3. Crear funciones.
 4. Integrar JS en HTML.
+
+## Taller N° 2: Porcentajes y descuentos
+1. Definir las formulas.
+2. Implementar las formulas en JavaScript. 
+3. Crear funciones.
+4. Integrar JS en HTML.

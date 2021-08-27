@@ -8,6 +8,129 @@
 </head>
 <body>
     <h1>Figuras Geométricas</h1>
+    <h2>Cuadrado</h2>
+    <form action="">
+        <label for="ladoDelCuadrado">Introduce el lado del cuadrado<br>
+            <input type="number" name="Número" id="ladoDelCuadrado" placeholder="Lado">
+        </label>
+    <br>
+        <input type="button" value="Calcular Área" id="button" onclick="areaDelCuadrado()">
+        <input type="button" value="Calcular Perímetro" id="button" onclick="perimetroDelCuadrado()">
+        <input type="reset" value="reset">
+    </form>
+    <p class="outputCuadrado"></p>
+
+    <h2>Triangulo</h2>
+    <form action="">
+        <fieldset>
+            <legend>Introduce los lados del triangulo</legend>    
+            
+            <label for="ladoDelTriangulo1">
+                <input type="number" name="Número" id="ladoDelTriangulo1"  placeholder="Lado 1">
+            </label>
+            
+            <label for="ladoDelTriangulo2">
+                <input type="number" name="Número" id="ladoDelTriangulo2" placeholder="Lado 2">
+            </label>
+            
+            <label for="baseDelTriangulo">
+                <input type="number" name="Número" id="baseDelTriangulo" placeholder="Base">
+            </label>
+            
+            <label for="alturaDelTiangulo">
+                <input type="number" name="Número" id="alturaDelTriangulo"  placeholder="Altura">
+            </label>
+            <br>
+            <input type="button" value="Calcular Área" id="button" onclick="areaDelTriangulo()">
+            <input type="button" value="Calcular Perímetro" id="button" onclick="perimetroDelTriangulo()">
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+    <p class="outputTriangulo"></p>
+
+    <h2>Triangulo isósceles</h2>    
+    <form action="">
+        <fieldset>
+            <legend>Introduce los lados del triangulo</legend>    
+            
+            <label for="catetoA">
+                <input type="number" name="Número" id="catetoA" placeholder="Cateto A">
+            </label>
+            
+            <label for="catetoB">
+                <input type="number" name="Número" id="catetoB" placeholder="Cateto B">
+            </label>
+            
+            <label for="baseIsosceles">
+                <input type="number" name="Número" id="baseIsosceles" placeholder="Base">
+            </label>
+            <br>
+            <input type="button" value="Calcular Altura" id="button" onclick="alturaDelTrianguloIsos()">
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+    <p class="outputTriangulo"></p>
+
+    <h2>Circulo</h2>
+    <form action="">
+        <label for="radio">Introduce el radio del circulo<br>
+            <input type="number" name="Número" id="radio" placeholder="Radio">
+        </label>
+    <br>
+        <input type="button" value="Calcular Área" id="button" onclick="areaDelCirculo()">
+        <input type="button" value="Calcular Circunferencia" id="button" onclick="perimetroDelCirculo()">
+        <input type="reset" value="reset">
+    </form>
+    <p class="outputCirculo"></p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form action="test.php" target="_blank">
+        <p><label>First name: <input type="text" name="firstname"></label></p>
+        <p><label>Last name: <input type="text" name="lastname"></label></p>
+        <p><label><input type="password" name="pwd"></label></p>
+      
+        <fieldset style="border-radius: 10px;">
+         <legend>Pet preference</legend>
+      
+          <label><input type="radio" name="pet" value="cat"> Cat</label>
+          <p><label><input type="radio" name="pet" value="dog"> Dog</label></p>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Owned vehicles</legend>
+      
+          <p><label><input type="checkbox" name="vehicle" value="Bike">I have a bike</label></p>
+          <p><label><input type="checkbox" name="vehicle" value="Car">I have a car</label></p>
+        </fieldset>
+      
+        <p><button>Submit</button></p>
+      </form>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    
+    <div class="toolbar">
+        <input type="color" aria-label="select pen color">
+        <input type="range" min="2" max="50" value="20" aria-label="select pen size"><span class="output">20</span>
+        <input type="button" value="Clear canvas">
+      </div>
+      
+      <canvas class="myCanvas">
+        <p>Add suitable fallback here.</p>
+      </canvas>
+
 <script src="./figuras.js"></script>
 </body>
 </html>
